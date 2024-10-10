@@ -5,8 +5,8 @@ async function getBlockTime(blocknum) {
 
   // Retrieve the RPC Project ID from secr
   if (!RPC_URL) {
-    const msg = "Error RPC URL is not set"
-    console.erro(msg, res);
+    const msg = "Error RPC URL is not set";
+    console.error(msg);
     return { error: msg, status: 500 };
   }
 
