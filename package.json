@@ -1,0 +1,27 @@
+{
+  "name": "block-api",
+  "version": "1.0.0",
+  "description": "rpc getter with cache to be used in layer 3",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbs-network/block-api.git"
+  },
+  "author": "yuval@orbs.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orbs-network/block-api/issues"
+  },
+  "homepage": "https://github.com/orbs-network/block-api#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
